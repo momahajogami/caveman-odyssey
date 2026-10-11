@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Stranger at the Door — Puppet Script</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, "Times New Roman", serif; background: #fff; color: #111; font-size: 12pt; line-height: 1.55; }
+    .screen-only { background: #fdfaf5; padding: 1rem 2rem; font-size: 0.8rem; color: #aaa; border-bottom: 1px solid #e0d8cc; }
+    .screen-only a { color: #888; text-decoration: none; }
+    .screen-only a:hover { text-decoration: underline; }
+    .page { max-width: 7in; margin: 0 auto; padding: 0.75in 0.8in 0.9in; }
+    .title-block { border-bottom: 3px double #111; padding-bottom: 0.5rem; margin-bottom: 1.2rem; }
+    .title-block h1 { font-size: 18pt; font-weight: bold; letter-spacing: 0.02em; margin-bottom: 0.15rem; }
+    .title-block .sub { font-size: 10pt; font-style: italic; color: #444; }
+    .cast { margin-bottom: 1.4rem; font-size: 10pt; }
+    .cast h2 { font-size: 9pt; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+    .cast ul { list-style: none; }
+    .cast li { margin-bottom: 0.15rem; }
+    .cast .cname { font-weight: bold; }
+    .cast .cdesc { color: #555; font-style: italic; }
+    .scene-head { font-size: 9pt; text-transform: uppercase; letter-spacing: 0.13em; color: #777; margin: 1.3rem 0 0.6rem; border-top: 1px solid #ccc; padding-top: 0.6rem; }
+    .line { display: flex; gap: 0.6rem; margin-bottom: 0.55rem; page-break-inside: avoid; }
+    .line .who { font-weight: bold; font-size: 11pt; min-width: 1.6in; flex-shrink: 0; text-align: right; padding-top: 0.05rem; color: #111; }
+    .line .what { flex: 1; font-size: 11pt; }
+    .stage { font-style: italic; color: #555; font-size: 10pt; margin: 0.7rem 0 0.7rem 1.6in; padding-left: 0.6rem; border-left: 2px solid #ccc; }
+    .tips { margin-top: 1.6rem; border: 1px solid #aaa; padding: 0.6rem 0.8rem; font-size: 9.5pt; page-break-inside: avoid; }
+    .tips h2 { font-size: 9pt; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+    .tips ul { padding-left: 1.2rem; }
+    .tips li { margin-bottom: 0.25rem; }
+    .footer-print { margin-top: 1.4rem; font-size: 8.5pt; color: #aaa; border-top: 1px solid #ccc; padding-top: 0.4rem; text-align: center; }
+    @media print { .screen-only { display: none; } @page { size: letter; margin: 0; } .page { padding: 0.65in 0.75in 0.75in; } }
+  </style>
+</head>
+<body>
+  <div class="screen-only">
+    <a href="book-01-feast.html">&#8592; read version</a> &nbsp;|&nbsp;
+    <a href="../index.html">all episodes</a> &nbsp;|&nbsp;
+    <span>Ctrl+P to print</span>
+  </div>
+  <div class="page">
+    <div class="title-block">
+      <h1>Caveman Odyssey: The Stranger at the Door</h1>
+      <p class="sub">Book I, Part 2 &mdash; a puppet script &mdash; after Homer</p>
+    </div>
+    <div class="cast">
+      <h2>Puppets Needed</h2>
+      <ul>
+        <li><span class="cname">TELEMAKOS</span> <span class="cdesc">— young man, sad at first, gets stronger</span></li>
+        <li><span class="cname">ATHENA / MENTES</span> <span class="cdesc">— disguised as an old sea captain; same puppet as Mentor from Book II</span></li>
+        <li><span class="cname">ANTINOOS</span> <span class="cdesc">— lead suitor, loud, comfortable, rude</span></li>
+        <li><span class="cname">PENELOPE</span> <span class="cdesc">— Telemakos's mother, sad, dignified</span></li>
+        <li><span class="cname">PHEMIOS</span> <span class="cdesc">— the bard; can be offstage voice or simple puppet with small instrument</span></li>
+        <li><span class="cname">SUITORS</span> <span class="cdesc">— two or three extras, eating and being loud in the background</span></li>
+      </ul>
+    </div>
+
+    <div class="scene-head">Scene 1 — The Big House</div>
+    <div class="stage">Ithaca. The house of Odysseus. Suitors eating, drinking, loud. Telemakos sits alone, sad. A stranger appears at the door. Telemakos jumps up and runs over. The suitors do not move.</div>
+    <div class="line"><span class="who">TELEMAKOS</span><span class="what">Stranger! Welcome! Come in! Eat! Rest! We talk after.</span></div>
+    <div class="stage">They move away from the suitors. Sit together. Food comes.</div>
+    <div class="line"><span class="who">ATHENA / MENTES</span><span class="what">Thank you. I am Mentes. Old friend of your father. I come visit Odysseus. But — I see house full of strangers. Loud strangers. Eating everything. What happen here?</span></div>
+    <div class="line"><span class="who">TELEMAKOS</span><span class="what">Father not come home from Troy. Long time now. These men want marry mother. Take father house. They stay and stay. They not go.</span></div>
+    <div class="line"><span class="who">ATHENA / MENTES</span><span class="what">Your father is not dead. I know this. Odysseus stuck somewhere far away. But coming home. Maybe slow. But coming.</span></div>
+    <div class="line"><span class="who">TELEMAKOS</span><span class="what">How you know this?</span></div>
+    <div class="line"><span class="who">ATHENA / MENTES</span><span class="what">I know. Listen. You need do two things. One: tomorrow, call assembly. Tell these men: go home. Say it loud. Two: get boat. Go find news of father. Ask king Nestor. Ask king Menelaos. They were at Troy. They know things.</span></div>
+
+    <div class="scene-head">Scene 2 — The Song</div>
+    <div class="stage">Phemios sings a sad song about the Greeks coming home from Troy. Penelope comes downstairs, crying.</div>
+    <div class="line"><span class="who">PENELOPE</span><span class="what">Phemios. Please. Not that song. Too sad. Sing something else.</span></div>
+    <div class="stage">Room goes quiet. Everyone looks. Then —</div>
+    <div class="line"><span class="who">TELEMAKOS</span><span class="what">Mother. Go upstairs. This is men's business. Phemios sings what he wants. I will handle things here.</span></div>
+    <div class="stage">Penelope stares at her son. Something is different. She goes upstairs without arguing.</div>
+    <div class="line"><span class="who">ANTINOOS</span><span class="what"><em>(laughing, but not quite comfortable)</em> Ha. Little boy talking big. Very funny.</span></div>
+    <div class="stage">Evening. Suitors leave. Stranger says goodbye and goes. Telemakos alone in the quiet hall. Then he goes to bed. He has a plan.</div>
+
+    <div class="tips">
+      <h2>Puppet Show Tips</h2>
+      <ul>
+        <li>The suitors should be noisy background puppets during Scene 1 — thumping, grabbing food, ignoring everyone. Then go still when Telemakos speaks to Penelope.</li>
+        <li>Telemakos running to greet the stranger is the first important moment — contrast it sharply with the suitors who don't move.</li>
+        <li>The Penelope scene: Telemakos surprises himself. Play a beat of silence before his line — he doesn't plan it, it just comes out.</li>
+        <li>Antinoos's laugh should trail off. The audience should feel that something shifted, even if Antinoos won't admit it.</li>
+        <li>End quietly. Telemakos alone. Lights low if possible. He goes to bed different than he woke up.</li>
+      </ul>
+    </div>
+    <div class="footer-print">Caveman Odyssey &mdash; after Homer &mdash; Ralph Hutchison &mdash; free to use and share</div>
+  </div>
+</body>
+</html>
