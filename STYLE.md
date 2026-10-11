@@ -18,19 +18,28 @@ The language is the constraint. Every word must earn its place. When in doubt, c
 
 - **Subject before verb. Verb before object.** No inversions, no subordinate clauses, no relative pronouns.
 - **Present tense throughout.** Not "Telemakos walked" — "Telemakos walks."
-- **No articles where possible.** Not "the boat" — "boat." Not "a god" — "god."
+- **Cut articles hard.** Not "the boat" — "boat." Not "a god" — "god." Only keep an article when removing it makes the line genuinely unclear.
 - **No conjunctions except "and" and "but."** No "although," "however," "therefore," "because."
 - **Repetition is good.** "Nestor old. Nestor wrong. Nestor sit down." The repetition is rhythm.
 - **Proper names instead of pronouns when possible.** "Telemakos go. Telemakos not stop." Not "he goes, he doesn't stop."
 - **Emphasis by sentence fragment.** "Very bad." "First time." "Just gone."
+- **Greek spellings for all names.** Telemakos, Athena, Kalypso, Olympos, Ithaka, Aigisthos, Aithiopians. When in doubt, use the Greek form.
+
+### The speeches are the structure
+
+Homer is a series of speeches with almost no description in between. That structure is sacred here. Every speech in Homer gets a speech here — simplified, but present. Do not combine two characters' speeches into one. Do not cut a speech to a stage direction. The number of speeches and their sequence must be preserved.
+
+What gets simplified is the language inside each speech, not the architecture of the scene.
 
 ### Emotions
 
-Show them physically, not abstractly. Not "Telemakos is afraid" — "Telemakos stands very still." Not "Nestor is surprised" — "Nestor stares. Long time. Then: 'Ah.'"
+Do not soften the weight of the story. Lean into the drama. Feel things deeply even with simple language. The Orestes story — father killed, son avenges him — is in there directly. That is right. Children can feel the weight of real things. Earn buy-in from intelligent adults. This is scaffold for real art.
+
+Emotions show in the speaking, not in description. Athena's anger at Zeus's indifference is in what she says and how she says it — the repetition, the accusation, the contrast. Not in a stage direction that reads "angrily."
 
 ### What the voice is *not*
 
-Not baby talk. Not silly. Not condescending. The grammar is stripped but the feelings are real. Nestor's lesson to Telemakos about Orestes lands hard in caveman — maybe harder. Don't soften the weight of the story.
+Not baby talk. Not silly. Not condescending. The grammar is stripped but the feelings are real and the stakes are real. Nestor's lesson about Orestes lands hard in caveman — maybe harder than in a fuller telling, because nothing cushions it.
 
 ### Good test
 
@@ -95,7 +104,7 @@ h1 (chipsquirt, amber family)
 
 ### Stage directions
 
-Italicized, set apart. They carry as much weight as dialogue — use them for the images that can't be spoken. Keep them short. One or two sentences.
+Italicized, set apart. Use as few as possible. Homer uses almost none — the speeches carry everything. A stage direction is justified only when something must happen that cannot be spoken: a transformation, an entrance, a departure, a silence. One sentence maximum. Cut the rest.
 
 ### Section breaks
 
