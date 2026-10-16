@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What the Boy Carries — Very Small Homer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 18px; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #fdfaf5;
+      color: #1a1a1a;
+      line-height: 1.85;
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 4rem 2rem 7rem;
+    }
+    nav { display: flex; justify-content: space-between; margin-bottom: 3.5rem; }
+    nav a { font-size: 0.72rem; color: #bbb; text-decoration: none;
+            letter-spacing: 0.06em; text-transform: uppercase; }
+    nav a:hover { color: #555; }
+    .chapter-tag { font-size: 0.72rem; color: #bbb; letter-spacing: 0.06em;
+                   text-transform: uppercase; margin-bottom: 0.5rem; }
+    h1 { font-size: 1.9rem; font-weight: normal; line-height: 1.2;
+         margin-bottom: 0.35rem; letter-spacing: -0.01em; }
+    .episode-note { font-size: 0.82rem; color: #bbb; font-style: italic;
+                    margin-bottom: 3.5rem; }
+    p { margin-bottom: 1.1rem; }
+    .section-break { text-align: center; color: #ddd; margin: 2.5rem 0;
+                     font-size: 0.9rem; letter-spacing: 0.5em; }
+    .footer { margin-top: 6rem; font-size: 0.72rem; color: #ccc;
+              border-top: 1px solid #ede8e0; padding-top: 2rem; }
+</style>
+</head>
+<body>
+
+  <nav>
+    <a href="ch2-ep1-mentes-at-the-gate.html">&#8592; Mentes at the Gate</a>
+    <a href="ch2-ep3-the-bard-sings.html">The Bard Sings &#8594;</a>
+  </nav>
+
+  <p class="chapter-tag">Chapter 2 · Episode 2.2</p>
+  <h1>What the Boy Carries</h1>
+  <p class="episode-note">Book I, lines 156–251 — Telemakhos tells the stranger his situation.</p>
+
+<p>Telemakhos tells Mentes the long story.</p>
+
+<p>His father left for Troy when he was a baby. He has no memory of him at all — only other people&#x27;s memories, and those are unreliable, because people remember what they want to. Troy fell ten years later. The Greeks sailed home. Most of them. Odysseus did not come home.</p>
+
+<p>Month by month, year by year. Then people started saying he was probably dead.</p>
+
+<p>&quot;And the moment they started saying that,&quot; Telemakhos says, &quot;these men arrived.&quot;</p>
+
+<p>The suitors came from households all over Ithaka and the nearby islands — men who wanted Penelope&#x27;s hand and the estate of Odysseus along with it. There are over a hundred of them now. They have been here three years. They eat his cattle, drink his wine, take what they want from his stores, and compete among themselves for his mother&#x27;s attention. No one stops them. The elders of Ithaka do nothing. Telemakhos is sixteen years old and alone, and he cannot force a hundred armed men to leave.</p>
+
+<p>His mother will not choose one of them. She told them she would give her answer when she finished weaving a burial shroud for Laertes, Odysseus&#x27;s father. Every night she unraveled what she had woven in the day. For three years she kept them waiting this way, until one of her servants told them the truth. Now the shroud is finished and she still will not choose. She waits, the way Telemakhos waits, for something none of them can name.</p>
+
+<p>Telemakhos looks at his hands for a moment. &quot;And I don&#x27;t even know for certain that Odysseus is my father,&quot; he says quietly. &quot;No man can know that on his own. All I have is my mother&#x27;s word.&quot;</p>
+
+<p>He says it without bitterness. It is simply a fact about the world he has grown up in — a world where the central thing is missing and may never come back.</p>
+
+<p>Mentes looks at him for a long time. &quot;You have his eyes,&quot; the stranger says, finally. &quot;I was almost certain of it at the gate.&quot;</p>
+
+  <div class="footer">Very Small Homer &mdash; after Homer &mdash; STE-10</div>
+
+  <script>
+  (function(){
+    var fam={hc:36,hd:8,sat:75,lc:28,lr:8};
+    function hsvToRgb(h,s,v){h=((h%360)+360)%360;var c=v*s,x=c*(1-Math.abs((h/60)%2-1)),m=v-c,r,g,b;if(h<60){r=c;g=x;b=0;}else if(h<120){r=x;g=c;b=0;}else if(h<180){r=0;g=c;b=x;}else if(h<240){r=0;g=x;b=c;}else if(h<300){r=x;g=0;b=c;}else{r=c;g=0;b=x;}return[Math.round((r+m)*255),Math.round((g+m)*255),Math.round((b+m)*255)];}
+    function lc(i,p){var P=1.6180339887,P2=2.6180339887,fr=0.45;var h=((fam.hc+fam.hd*Math.sin(i*fr+p))%360+360)%360;var s=Math.max(0,Math.min(1,fam.sat/100+0.18*Math.sin(i*fr*P+p+1.1)));var v=Math.max(0.08,Math.min(0.60,0.30+0.18*Math.sin(i*fr*P2+p+2.3)));return'rgb('+hsvToRgb(h,s,v)+')';}
+    function colorize(el){var p=Math.random()*Math.PI*2,i=0,w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),ns=[],n;while((n=w.nextNode()))ns.push(n);ns.forEach(function(node){var f=document.createDocumentFragment();for(var ci=0;ci<node.nodeValue.length;ci++){var ch=node.nodeValue[ci];if(/[ \t\n\r]/.test(ch)){f.appendChild(document.createTextNode(ch));}else{var sp=document.createElement('span');sp.style.color=lc(i++,p);sp.textContent=ch;f.appendChild(sp);}}node.parentNode.replaceChild(f,node);});}
+    document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('h1').forEach(function(el){colorize(el);});});
+  })();
+  </script>
+
+</body>
+</html>
