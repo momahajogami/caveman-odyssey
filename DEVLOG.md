@@ -135,6 +135,36 @@ ls STE-10/book-01/episodes/ | sort
 
 The story is visible in the output.
 
+## 2026-10-17
+
+### STE-10 Book II — the assembly, the ship, the night
+
+Ten more episodes, three chapters:
+
+| Chapter | Episodes |
+|---------|----------|
+| 1 — The Assembly | 1.1 Morning · 1.2 Telemakhos Speaks · 1.3 Antinoos Answers · 1.4 The Eagles · 1.5 The Assembly Ends |
+| 2 — The Ship | 2.1 Athena on the Shore · 2.2 The Storeroom · 2.3 The Oath |
+| 3 — The Night | 3.1 The Crew · 3.2 The Dark Departure |
+
+Built the same way: edit `.md` in `book-02/episodes-src/`, run `python3 scripts/build.py book-02`.
+
+**Unix note — reusing the pipeline**
+
+The build script takes a book directory as its argument. Adding Book II required
+zero changes to the script — the same `build.py` that built Book I builds Book II.
+This is the Unix philosophy in action: write tools that do one thing and take
+input as a parameter, not hardcoded into the tool itself.
+
+```sh
+python3 scripts/build.py book-01   # ten episodes
+python3 scripts/build.py book-02   # ten more
+```
+
+The script does not know or care that there are now two books. It just reads
+`.md` files, sorts by chapter/episode, and writes HTML. Adding Book III will
+require the same zero changes.
+
 **The STE-10 voice**
 
 STE-10 is prose narrative — a narrator who can put the reader in the room. Where the
