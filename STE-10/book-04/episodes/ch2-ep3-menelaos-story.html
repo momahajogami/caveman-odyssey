@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menelaos&#x27;s Story — Very Small Homer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 18px; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #fdfaf5;
+      color: #1a1a1a;
+      line-height: 1.85;
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 4rem 2rem 7rem;
+    }
+    nav { display: flex; justify-content: space-between; margin-bottom: 3.5rem; }
+    nav a { font-size: 0.72rem; color: #bbb; text-decoration: none;
+            letter-spacing: 0.06em; text-transform: uppercase; }
+    nav a:hover { color: #555; }
+    .chapter-tag { font-size: 0.72rem; color: #bbb; letter-spacing: 0.06em;
+                   text-transform: uppercase; margin-bottom: 0.5rem; }
+    h1 { font-size: 1.9rem; font-weight: normal; line-height: 1.2;
+         margin-bottom: 0.35rem; letter-spacing: -0.01em; }
+    .episode-note { font-size: 0.82rem; color: #bbb; font-style: italic;
+                    margin-bottom: 3.5rem; }
+    p { margin-bottom: 1.1rem; }
+    .section-break { text-align: center; color: #ddd; margin: 2.5rem 0;
+                     font-size: 0.9rem; letter-spacing: 0.5em; }
+    .footer { margin-top: 6rem; font-size: 0.72rem; color: #ccc;
+              border-top: 1px solid #ede8e0; padding-top: 2rem; }
+</style>
+</head>
+<body>
+
+  <nav>
+    <a href="ch2-ep2-helens-story.html">&#8592; Helen&#x27;s Story</a>
+    <a href="ch3-ep1-what-menelaos-asks.html">What Menelaos Heard &#8594;</a>
+  </nav>
+
+  <p class="chapter-tag">Chapter 2 · Episode 2.3</p>
+  <h1>Menelaos&#x27;s Story</h1>
+  <p class="episode-note">Book IV, lines 265–289 — The wooden horse. Helen called the Greeks&#x27; wives&#x27; voices. Odysseus held them still.</p>
+
+<p>Menelaos sets down his cup. &quot;I have a different story about Odysseus.&quot;</p>
+
+<p>At the very end of the war, when the wooden horse had been brought inside the walls of Troy, they were all inside it — the best of the Greek fighters, packed in the dark, waiting. Hours had passed. The city was celebrating outside, thinking the Greeks had finally gone.</p>
+
+<p>And then Helen walked around the horse.</p>
+
+<p>&quot;You came and called our names,&quot; Menelaos says to her. He is not angry. He has told this story to himself enough times that the anger is spent. &quot;You walked around the horse and called out the names of the Greeks inside, one by one, and you did it in the voices of our wives. I don&#x27;t know how you knew their voices. Some of the men almost answered. Some of them almost cried out — they were that far from home, that tired, that ready to hear the voice of someone who loved them. And then there would have been no Troy, no victory, no going home at all.&quot;</p>
+
+<p>Helen says nothing. She does not look away.</p>
+
+<p>&quot;Odysseus held us,&quot; Menelaos says. &quot;He put his hand over mouths. He held people physically still when they were about to break. One man — Antiklos — had his mouth open, the sound already starting. Odysseus covered his mouth with both hands and held him silent until you walked away.&quot; He pauses. &quot;That is how we survived to take Troy. That is Odysseus — making the right decision in the dark, in silence, with his hands.&quot;</p>
+
+<p>They sit with this for a while. Outside, the musicians have stopped. The wedding feast is winding down.</p>
+
+  <div class="footer">Very Small Homer &mdash; after Homer &mdash; STE-10</div>
+
+  <script>
+  (function(){
+    var fam={hc:215,hd:8,sat:40,lc:28,lr:8};
+    function hsvToRgb(h,s,v){h=((h%360)+360)%360;var c=v*s,x=c*(1-Math.abs((h/60)%2-1)),m=v-c,r,g,b;if(h<60){r=c;g=x;b=0;}else if(h<120){r=x;g=c;b=0;}else if(h<180){r=0;g=c;b=x;}else if(h<240){r=0;g=x;b=c;}else if(h<300){r=x;g=0;b=c;}else{r=c;g=0;b=x;}return[Math.round((r+m)*255),Math.round((g+m)*255),Math.round((b+m)*255)];}
+    function lc(i,p){var P=1.6180339887,P2=2.6180339887,fr=0.45;var h=((fam.hc+fam.hd*Math.sin(i*fr+p))%360+360)%360;var s=Math.max(0,Math.min(1,fam.sat/100+0.18*Math.sin(i*fr*P+p+1.1)));var v=Math.max(0.08,Math.min(0.60,0.30+0.18*Math.sin(i*fr*P2+p+2.3)));return'rgb('+hsvToRgb(h,s,v)+')';}
+    function colorize(el){var p=Math.random()*Math.PI*2,i=0,w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),ns=[],n;while((n=w.nextNode()))ns.push(n);ns.forEach(function(node){var f=document.createDocumentFragment();for(var ci=0;ci<node.nodeValue.length;ci++){var ch=node.nodeValue[ci];if(/[ \t\n\r]/.test(ch)){f.appendChild(document.createTextNode(ch));}else{var sp=document.createElement('span');sp.style.color=lc(i++,p);sp.textContent=ch;f.appendChild(sp);}}node.parentNode.replaceChild(f,node);});}
+    document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('h1').forEach(function(el){colorize(el);});});
+  })();
+  </script>
+
+</body>
+</html>
